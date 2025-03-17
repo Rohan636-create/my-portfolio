@@ -14,6 +14,7 @@ const Header = () => {
           {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#projects" className="text-gray-700 hover:text-indigo-600">Projects</a>
+            <a href="#research" className="text-gray-700 hover:text-indigo-600">Research</a>
             <a href="#about" className="text-gray-700 hover:text-indigo-600">About</a>
           </nav>
           
@@ -50,6 +51,12 @@ const Header = () => {
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50"
             >
               Projects
+            </a>
+            <a 
+              href="#research" 
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50"
+            >
+              Research
             </a>
             <a 
               href="#about" 
